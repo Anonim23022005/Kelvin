@@ -1,0 +1,64 @@
+@media(max-width:1000px){
+    .nav-list{
+        display: none;
+    }
+    .nav-button{
+        display: block;
+    }
+    .nav.open .nav-list{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+       background-color: white;
+        padding: 46px 30px;
+        font-size: 35px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .nav-button{
+        position: absolute;
+        top: 50px;
+        right: 30px;
+    }
+    .nav.open .nav-button{
+        position: fixed;
+    }
+
+    .header-row{
+        flex-direction: column;
+        row-gap: 40px;
+       
+    }
+    .header-content{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .header-img{
+        text-align: center;
+    }
+}
+
+@media(max-width: 700px){
+    .services{
+        padding: 50px;
+    }
+    .portfolio{
+        padding: 50px;
+    }
+    .project{
+        font-size: 25px;
+    }
+    .contacts-title{
+        font-size: 25px;
+    }
+    p{
+        font-size: 18px;
+        
+    }
+}
